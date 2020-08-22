@@ -9,12 +9,15 @@ num_channels = 3
 train_data = 'data/train'
 valid_data = 'data/valid'
 num_classes = 196
-num_train_samples = 6549
-num_valid_samples = 1595
+
+# For 80-20 split
+num_train_samples = 6515  
+num_valid_samples = 1629
+
 verbose = 1
 batch_size = 16
-num_epochs = 100000
-patience = 50
+num_epochs = 120
+patience = 40
 
 if __name__ == '__main__':
     # build a classifier model
