@@ -13,7 +13,8 @@ def load_model():
     return model
 
 
-def draw_str(dst, target, s):
+def draw_str(dst, target, s1, s2):
     x, y = target
-    cv.putText(dst, s, (x + 1, y + 1), cv.FONT_HERSHEY_PLAIN, 1.0, (0, 0, 0), thickness=2, lineType=cv.LINE_AA)
-    cv.putText(dst, s, (x, y), cv.FONT_HERSHEY_PLAIN, 1.0, (255, 255, 255), lineType=cv.LINE_AA)
+    cv.rectangle(dst, (x-220, y-220), (x-10, y-10), (255, 0, 0), 2)
+    cv.putText(dst, s1, (x - 270, y - 200), cv.FONT_HERSHEY_SIMPLEX, 0.40, (255, 0, 255), thickness=2, lineType=cv.LINE_AA)
+    cv.putText(dst, s2, (x - 270, y - 180), cv.FONT_HERSHEY_SIMPLEX, 0.40, (255, 0, 255), thickness=2, lineType=cv.LINE_AA)
