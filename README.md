@@ -1,7 +1,7 @@
 # Car Recognition
 
 
-This repository is to do car recognition by fine-tuning ResNet-152 with Cars Dataset from Stanford.
+This repository is to do car recognition by fine-tuning ResNet-50 with Cars Dataset from Stanford.
 
 
 ## Dependencies
@@ -28,7 +28,7 @@ $ wget --no-check-certificate https://ai.stanford.edu/~jkrause/cars/car_devkit.t
 
 ## ImageNet Pretrained Models
 
-Download [ResNet-152](https://drive.google.com/file/d/0Byy2AcGyEVxfeXExMzNNOHpEODg/view?usp=sharing) into models folder.
+Download [ResNet-50](https://drive.google.com/file/d/0Byy2AcGyEVxfeXExMzNNOHpEODg/view?usp=sharing) into models folder.
 
 ## Usage
 
@@ -57,7 +57,7 @@ $ python analyze.py
 ```
 
 #### Validation acc:
-**88.70%**
+**97.54%**
 
 #### Confusion matrix:
 
