@@ -77,7 +77,7 @@ Submit predictions of test data set (8,041 testing images) at [Cars Dataset](htt
  ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Capture.JPG)
 
 ### Demo
-Download [pre-trained model](https://drive.google.com/file/d/1hXAldis7oQVf6zGvY6cY7EJfXiuVR5Sz/view?usp=sharing) into "models" folder then run:
+Download [pre-trained model](https://drive.google.com/file/d/1K7NRmwlTenyerFrW-mrevRuDaNuHDItu/view?usp=sharing) into "models" folder then run:
 
 ```bash
 $ python demo.py --i [image_path]
