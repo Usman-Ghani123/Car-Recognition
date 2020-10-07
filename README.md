@@ -91,5 +91,13 @@ $ python demo.py
 class_name: Lamborghini Reventon Coupe 2008
 prob: 0.9999994
 ```
+### GUI
+
+```bash
+$ python apply_gui(bounding_box).py  
+```
+Select a directory of images of cars. It will create bounding box around a car and will show class name and probability score:
+
+![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/gui_capture.JPG)
 
 
