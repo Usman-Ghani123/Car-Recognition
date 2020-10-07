@@ -72,9 +72,9 @@ $ python test.py
 Submit predictions of test data set (8,041 testing images) at [Cars Dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), evaluation result:
 
 #### Test acc:
-**88.88%**
+**87.60%**
 
- ![image](https://github.com/foamliu/Car-Recognition/raw/master/images/test.jpg)
+ ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Capture.JPG)
 
 ### Demo
 Download [pre-trained model](https://github.com/foamliu/Car-Recognition/releases/download/v1.0/model.96-0.89.hdf5) into "models" folder then run:
