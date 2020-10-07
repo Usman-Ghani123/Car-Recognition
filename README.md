@@ -48,7 +48,7 @@ If you want to visualize during training, run in your terminal:
 $ tensorboard --logdir path_to_current_dir/logs
 ```
 
- ![image](https://github.com/foamliu/Car-Recognition/raw/master/images/train.jpg)
+ ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/acc.PNG) |  ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/loss.PNG) | ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_acc.PNG) | ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_loss.PNG)
 
 ### Analysis
 Update "model_weights_path" in "utils.py" with your best model, and use 1,629 validation images for result analysis:
