@@ -28,7 +28,7 @@ $ wget --no-check-certificate https://ai.stanford.edu/~jkrause/cars/car_devkit.t
 
 ## ImageNet Pretrained Models
 
-Download [ResNet-50](https://drive.google.com/file/d/0Byy2AcGyEVxfeXExMzNNOHpEODg/view?usp=sharing) into models folder.
+Download [ResNet-50](https://github.com/fchollet/deep-learning-models/releases/download/v0.2/resnet50_weights_tf_dim_ordering_tf_kernels.h5) into models folder.
 
 ## Usage
 
