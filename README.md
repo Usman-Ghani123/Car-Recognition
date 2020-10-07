@@ -61,7 +61,8 @@ $ python analyze.py
 
 #### Confusion matrix:
 
- ![image](https://github.com/foamliu/Car-Recognition/raw/master/images/confusion_matrix.jpg)
+ ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Confusion%20Matrix/Normalized%20Confusion%20matrix.png)| ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Confusion%20Matrix/confusion%20matrix.png)
+
 
 ### Test
 ```bash
