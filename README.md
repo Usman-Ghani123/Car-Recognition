@@ -13,7 +13,7 @@ This repository is to do car recognition by fine-tuning ResNet-50 with Cars Data
 
 ## Dataset
 
-We use the Cars Dataset, which contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images, where each class has been split roughly in a 50-50 split.
+We use the Cars Dataset, which contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images, where each class has been split roughly in a 80-20 split.
 
  ![image](https://github.com/foamliu/Car-Recognition/raw/master/images/random.jpg)
 
