@@ -6,10 +6,12 @@ This repository is to do car recognition by fine-tuning ResNet-50 with Cars Data
 
 ## Dependencies
 
-- [NumPy](http://docs.scipy.org/doc/numpy-1.10.1/user/install.html)
-- [Tensorflow](https://www.tensorflow.org/versions/r0.8/get_started/os_setup.html)
-- [Keras](https://keras.io/#installation)
-- [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/)
+- Numpy 1.16.1
+- Tensorflow 1.13.1
+- Keras 2.0.0
+- OpenCV 4.2.0
+
+
 
 ## Dataset
 
@@ -47,6 +49,7 @@ If you want to visualize during training, run in your terminal:
 ```bash
 $ tensorboard --logdir path_to_current_dir/logs
 ```
+*Python version must be atleast 3.6.8 to run this commandin your cmd or anaconda promopt or miniconda prompt*
 
  ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/acc.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/loss.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_acc.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_loss.PNG)
 
@@ -80,7 +83,7 @@ Submit predictions of test data set (8,041 testing images) at [Cars Dataset](htt
 Download [pre-trained model](https://drive.google.com/file/d/1K7NRmwlTenyerFrW-mrevRuDaNuHDItu/view?usp=sharing) into "models" folder then run:
 
 ```bash
-$ python demo.py --i [image_path]
+$ python demo.py
 ```
 If no argument, a sample image is used:
 
