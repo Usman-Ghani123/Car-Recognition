@@ -48,7 +48,7 @@ If you want to visualize during training, run in your terminal:
 $ tensorboard --logdir path_to_current_dir/logs
 ```
 
- ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/acc.PNG) |  ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/loss.PNG) | ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_acc.PNG) | ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_loss.PNG)
+ ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/acc.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/loss.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_acc.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_loss.PNG)
 
 ### Analysis
 Update "model_weights_path" in "utils.py" with your best model, and use 1,629 validation images for result analysis:
@@ -61,7 +61,7 @@ $ python analyze.py
 
 #### Confusion matrix:
 
- ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Confusion%20Matrix/Normalized%20Confusion%20matrix.png)| ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Confusion%20Matrix/confusion%20matrix.png)
+ ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Confusion%20Matrix/Normalized%20Confusion%20matrix.png) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Confusion%20Matrix/confusion%20matrix.png)
 
 
 ### Test
