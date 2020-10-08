@@ -97,7 +97,7 @@ prob: 0.9999994
 ### GUI
 
 ```bash
-$ python apply_gui(bounding_box).py  
+$ python gui.py  
 ```
 Select a directory of images of cars. It will create bounding box around a car and will show class name and probability score:
 
