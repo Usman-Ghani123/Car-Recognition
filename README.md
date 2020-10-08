@@ -49,7 +49,7 @@ If you want to visualize during training, run in your terminal:
 ```bash
 $ tensorboard --logdir path_to_current_dir/logs
 ```
-*Python version must be atleast 3.6.8 to run this commandin your cmd or anaconda promopt or miniconda prompt*
+*Python version must be atleast 3.6.8 to run this command in your cmd or anaconda promopt or miniconda prompt*
 
  ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/acc.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/loss.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_acc.PNG) ![image](https://github.com/Usman-Ghani123/Car-Recognition/blob/master/Accuracy_Loss/val_loss.PNG)
 
